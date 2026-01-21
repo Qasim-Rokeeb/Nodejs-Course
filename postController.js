@@ -3,8 +3,12 @@ const posts = [
   { id: 2, title: "Second Post", content: "This is the second post." },
 ];
 
+
+const getPosts = () =>  posts;
+
+export const getPostsLength = () => posts.length;
 // export const getPosts = () => {
 //   return posts;
 //  OR }
 
-export {getPosts};
+export default getPosts;
